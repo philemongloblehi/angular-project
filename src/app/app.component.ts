@@ -9,6 +9,10 @@ export class AppComponent {
   title = 'My awesome app';
   isAuth = false;
 
+  appareilOne: String = 'Machine à laver';
+  appareilTwo: String = 'Frigo';
+  appreilThree: String = 'Ordinateur';
+
   constructor() {
     setTimeout(
       () => {
